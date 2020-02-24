@@ -1,0 +1,135 @@
+
+/*style jumbotron*/
+/*.navbar{
+		text-shadow: 2px 5px 25px #000000;
+}*/
+.jumbotron{
+	background-image: url(img/bar1.jpg);
+	background-size: cover;
+	height: 750px; 
+	text-align: center;
+	margin-top : -120px;
+
+}
+
+.jumbotron .display-4{
+	color: black;
+	margin-top: 240px;
+
+}
+
+.jumbotron p {
+	color: black;
+	font-size: 25px;
+}
+
+.jumbotron hr{
+	border-color: #F05F40;
+	width: 100px;
+	border-width:7px;
+}
+
+.jumbotron .btn{
+	background-color: #F05F40;
+	border: none;
+	border-radius: 30px;
+	padding-right: 40px;
+	padding-left: 40px;	
+	margin-top: 30px;
+}
+
+/*
+style carousel*/
+
+
+.carousel-item img{
+	margin-top: -120px;
+}
+
+.carousel-item .display-4{
+	margin-top: -440px;
+}
+
+.carousel p {
+	color: rgb(69, 73, 8);
+	font-size: 25px;
+}
+
+.carousel-item h1 {
+	color: #e0bf03;
+}
+.carousel hr{
+	border-color: #F05F40;
+	width: 100px;
+	border-width:7px;
+}
+
+.carousel .btn{
+	background-color: #F05F40;
+	border: none;
+	border-radius: 30px;
+	padding-right: 40px;
+	padding-left: 40px;	
+	margin-top: 30px;
+	text-shadow: 7px 7px 10px #000000;
+}
+
+.kabaralumni{
+	background-color: white;
+	margin: 5%;
+}
+
+.kanan{
+	background-color: yellow;
+}
+.wh-100x img{ 
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 100%;
+	height:50%; 
+}
+
+.pt-20{ padding-top: 20px!important; }
+.list-li-mr-20 > li{ margin-right: 20px; }
+.pt-10{ padding-top: 10px!important; }
+.mb-30{ margin-bottom: 30px!important; }
+
+
+.abs-tlr img{
+	 width: 25%!important; 
+	 margin-right: 5%;
+	 padding: 4px;
+}
+
+.blockquote-custom {
+	position: relative;
+	font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+width: 50px!important;
+height: 50px!important;
+border-radius: 50%!important;
+display: flex!important;
+align-items: center!important;
+justify-content: center!important;
+position: absolute!important;
+top: -25px!important;
+left: 50px!important;
+}
+	
+
+.agenda-alumni{
+	/* background-color: lightgoldenrodyellow; */
+	padding: 5%;
+}
+
+.p-title{ position: relative; padding-bottom: 20px; margin-bottom: 40px; }
+
+.p-title:after { content:''; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background: #ccc; }
+.p-title:before{ content:''; position: absolute; bottom: 0; left: 0; width: 80px; height: 5px; 
+	background: #F9B500; z-index: 1; }
+/* .kabaralumni .headline img {
+	width: 100%!important;
+} */
